@@ -1,0 +1,6 @@
+/target/
+.env
+config.yaml
+data/*.db
+data/*.db-*
+*.log
