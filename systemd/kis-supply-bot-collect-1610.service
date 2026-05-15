@@ -1,9 +1,0 @@
-[Unit]
-Description=KIS Supply Bot Collect Daily 16:10
-
-[Service]
-Type=oneshot
-WorkingDirectory=/opt/kis-supply-bot
-EnvironmentFile=/opt/kis-supply-bot/.env
-ExecStart=/opt/kis-supply-bot/kis-supply-bot collect-daily
-User=root
